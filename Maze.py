@@ -12,7 +12,7 @@ SCREEN_WIDTH = 1024
 SCREEN_HEIGHT = 600
 SCREEN_TITLE = "Sprite Collect penguins with Different Levels Example"
 
-class FallingCoin(arcade.Sprite):
+class FallingPenguin(arcade.Sprite):
     """ Simple sprite that falls down """
 
     def update(self):
@@ -25,7 +25,7 @@ class FallingCoin(arcade.Sprite):
         if self.top < 0:
             self.bottom = SCREEN_HEIGHT
 
-class RisingCoin(arcade.Sprite):
+class RisingPenguin(arcade.Sprite):
     """ Simple sprite that falls up """
 
     def update(self):
@@ -108,7 +108,7 @@ class MyGame(arcade.Window):
         for i in range(30):
 
             # Create the coin instance
-            coin = FallingCoin("followerPenguin.png", .15)
+            coin = FallingPenguin("followerPenguin.png", .15)
 
             # Position the coin
             coin.center_x = random.randrange(SCREEN_WIDTH)
@@ -121,7 +121,7 @@ class MyGame(arcade.Window):
         for i in range(30):
 
             # Create the coin instance
-            coin = RisingCoin("followerPenguin.png", .15)
+            coin = RisingPenguin("followerPenguin.png", .15)
 
             # Position the coin
             coin.center_x = random.randrange(SCREEN_WIDTH)
