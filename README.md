@@ -17,9 +17,9 @@ Git / GitHib
 
 # Useful Websites
 
-* [Web Site Name](https://byui-cse.github.io/cse310-course/lesson01/01-prove.html)
-* [Web Site Name](https://github.com/ghostrider86/apply_program)
-* [Web Site Name](https://arcade.academy/examples/index.html)
+* [Git hub course overview](https://byui-cse.github.io/cse310-course/lesson01/01-prove.html)
+* [My repository](https://github.com/ghostrider86/apply_program)
+* [Python arcade library](https://arcade.academy/examples/index.html)
 
 
 # Future Work
